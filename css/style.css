@@ -13,7 +13,7 @@
     padding: 0 15px;
 }
 
-#intro, #work, #team {padding-top: 4rem;}
+#intro, #projects, #experience {padding-top: 4rem;}
 
 
 #index-banner {
@@ -24,7 +24,7 @@
 }
 
 #nav_f{
-    box-shadow: none !important; 
+    box-shadow: none !important;
     -webkit-box-shadow:none !important;
 }
 
@@ -63,7 +63,7 @@
 
 .card-content a:hover {color: #2196F3;}
 
-#work, #team{background: rgb(247, 247, 247);}
+.projects, .experience{background: rgb(247, 247, 247);}
 
 .text_pink{color:#EF9A9A;}
 
@@ -262,4 +262,9 @@ nav a.button-collapse {
 
 footer.page-footer {
     margin-top: 0px !important;
+}
+
+.roundPic {
+  width: 300px;
+  border-radius: 50%;
 }
